@@ -31,12 +31,19 @@ let slideContent = document.getElementById('sliderContent');
 
 let sliderIndex = 0;
 
+function createATag(item){
+    let aTag = document.createElement('a');
+    aTag.setAttribute('href', item.url);
+    aTag.classList('slide');
+    return aTag;
+}
+
 function createImgTag(item) {
     let imgDivTag = document.createElement('img');
     imgDivTag.setAttribute('scr', item.imageUrl);
-    imgDivTag.setAttribute('alt', item.id);
+    imgDivTag.setAttribute('alt', item.title);
     imgDivTag.classList.add('backgroundImg');
-    return imgTag;
+    return imgDivTag;
 }
 
 function createH2Tag(item){
@@ -48,9 +55,14 @@ function createH2Tag(item){
 
 function setSlider(){
     slideContent.innerHTML = ' ';
+    let slideItem = createATag(data[sliderIndex]);
     let imgTag = createImgTag(data[sliderIndex]);
-    let h2slideTag = createImgTag(data[sliderIndex]);
-    slideContent.appendChild(imgTag);
-    slideContent.appendChild(h2slideTag);
+    let h2Title = createH2Tag(data[sliderIndex]);
+
+    slideItem.appendChild(imgTag);
+    slideItem.appendChild(h2Title);
+    slideContent.appendChild(slideItem);
 }
+
+setSlider();
 
