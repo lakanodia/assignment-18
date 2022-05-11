@@ -8,19 +8,19 @@ let data = [
 {
     id: 2,
     imageUrl: 'https://a.cdn-hotels.com/gdcs/production129/d1719/eaa3ce8a-cb82-4e0c-9b8a-1dda760d14d2.jpg',
-    title: '2. Tailand ',
+    title: 'Tailand ',
     url:'https://www.google.com/'
 },
 {
     id: 3,
     imageUrl: 'https://i2.wp.com/www.alltherooms.com/blog/wp-content/uploads/2018/09/Feature-Beaches-in-the-Maldives-By-Nikolay-007.jpg?fit=1000%2C667&ssl=1',
-    title: '3. maldives',
+    title: 'maldives',
     url:'https://www.google.com/'
 },
 {
     id: 4,
     imageUrl: 'https://media.cntraveler.com/photos/5e56daf217b1dc0008f2fba6/master/pass/03-waileabeach-hawaii-2020-GettyImages-144924389.jpg',
-    title: '4. Hawaii',
+    title: 'Hawaii',
     url:'https://www.google.com/'
 }
 ];
