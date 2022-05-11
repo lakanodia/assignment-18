@@ -1,19 +1,29 @@
 body{
     font-family: 'Comfortaa';
 }
+.sliderContent{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-weight: 800;
+    border-radius: 15px;
+    background-color: #3c3c3c2f;
+    color: rgb(231, 231, 231);
     border: none;
-    background-color: rgba(240, 248, 255, 0);
-    color: rgba(255, 255, 255, 0.801);
     font-size: 60px;
     cursor: pointer;
 }
 .arrow:hover{
-    color: rgba(0, 0, 0, 0.507);
+    background: linear-gradient(to top right, #ff5050 0%, #ff9933 100%);
+    opacity: 80%;
+    box-shadow: 0px 5px 10px #78534ce0;
 }
 .right{
     right: 5%; 
@@ -24,14 +34,7 @@ body{
     left: 5%; 
 }
 
-.sliderContent{
-    height: 900px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
 .a-link{
     max-width: 200px;
     width: 100%;
@@ -39,9 +42,9 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.934);
+    background: linear-gradient(to top right, #ff5050 0%, #ff9933 100%);
     vertical-align: middle;
-    opacity: 70%;
+    opacity: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,10 +53,10 @@ body{
 }
 
 .a-link:hover{
-    box-shadow: 15px 15px 15px rgba(55, 55, 55, 0.76);
+    box-shadow: 0px 10px 15px #78534ce0;
 }
 .h2-link{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
     color: aliceblue;
 
@@ -77,5 +80,6 @@ body{
     cursor: pointer;
 }
 .dot.active {
-    background-color: rgba(0, 0, 0, 0.711);
+    background: linear-gradient(to top right, #f43f3f 0%, #ff9933 100%);
+    opacity: 100%;
 }
