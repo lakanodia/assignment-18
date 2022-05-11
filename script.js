@@ -8,13 +8,13 @@ let data = [
 {
     id: 2,
     imageUrl: 'https://a.cdn-hotels.com/gdcs/production129/d1719/eaa3ce8a-cb82-4e0c-9b8a-1dda760d14d2.jpg',
-    title: 'Tailand ',
+    title: 'Tailand',
     url:'https://www.google.com/'
 },
 {
     id: 3,
     imageUrl: 'https://i2.wp.com/www.alltherooms.com/blog/wp-content/uploads/2018/09/Feature-Beaches-in-the-Maldives-By-Nikolay-007.jpg?fit=1000%2C667&ssl=1',
-    title: 'maldives',
+    title: 'Maldives',
     url:'https://www.google.com/'
 },
 {
