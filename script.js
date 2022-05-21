@@ -17,7 +17,6 @@ let data = [
     title: 'Tusheti',
     url:'https://www.google.com/'
 },
-
 {
     id: 4,
     imageUrl: 'https://scontent.ftbs5-3.fna.fbcdn.net/v/t31.18172-8/10454355_865190593510997_494723374843033858_o.jpg?_nc_cat=101&ccb=1-6&_nc_sid=9267fe&_nc_ohc=S9PX2LR7ZNwAX-JRx88&tn=e92VBgxIx5ljOt_P&_nc_ht=scontent.ftbs5-3.fna&oh=00_AT9H86hK3kJ36Y5gxpw4ob6QG9eF0Gx6WsLSq3mZamdyPQ&oe=62A2B6C2',
@@ -31,7 +30,6 @@ let data = [
     url:'https://www.google.com/'
 },
 ];
-
 
 let rightArrow = document.getElementById('rightArrow');
 let leftArrow = document.getElementById('leftArrow');
